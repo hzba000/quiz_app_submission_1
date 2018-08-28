@@ -237,11 +237,11 @@
   }
   
   .wrong-explanation{
-    color: tomato;
+    color: black;
   }
   
   .right-explanation{
-    color: dodgerblue;
+    color: black;
   }
   
   @media only screen and (min-width: 640px) {
