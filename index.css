@@ -1,0 +1,264 @@
+
+/*Radio Buttons*/
+.optionsContainer{
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  .optionsContainer > label,
+  .optionsContainer > input{
+    float : left;
+  }
+  
+  .optionsContainer > label{
+    margin-left: 10px;
+  }
+  
+  label:hover, label:focus {
+    color: darkorange;
+    cursor: pointer;
+  }
+  
+  input:checked {
+    border: 8px solid darkorange;
+  }
+  /*_________________________________________*/
+  
+  body{
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 17 px;
+    font-weight:bold;
+    
+  }
+  
+  body h1{
+    cursor: pointer;
+    background-color: brown;
+    font-family: 'Mouse Memoirs', sans-serif;
+    color:White;
+  }
+  
+  main img{
+    height: 250px;
+    width:  250px;
+  }
+  
+  .status ul li{
+    display:inline-block;
+    margin-right: 60px;
+    font-size: 25px;
+  }
+  
+  .question{
+    font-weight:bold;
+  }
+  
+  fieldset {
+  border: none;
+  display: inline-block;
+  }
+  
+  legend {
+  color: black;
+  border: 1px black solid;
+  padding: 5px;
+  
+  }
+  
+  .right-explanation, .wrong-explanation{
+    margin-top: 0;
+  }
+  
+  /*Buttons*/
+  
+  .start-button{
+    display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+      color: #fff; 
+      background-color: #007bff;
+      border-color: #007bff;
+      cursor: pointer;
+      
+  }
+  
+  .start-button:hover{
+    background-color: red;
+  }
+  
+  .continue-button{
+    display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+      color: #fff; 
+      background-color: #007bff;
+      border-color: #007bff;
+      cursor: pointer;
+      
+  }
+  
+  .continue-button:hover{
+    background-color: red;
+  }
+  
+  .submit-button{
+    display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+      color: #fff; 
+      background-color: #007bff;
+      border-color: #007bff;
+      cursor: pointer;
+      
+  }
+  
+  .submit-button:hover{
+    background-color: red;
+  }
+  
+  .restart-button{
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+      color: #fff; 
+      background-color: #007bff;
+      border-color: #007bff;
+      cursor: pointer;
+      
+  }
+  
+  .restart-button:hover{
+    background-color: red;
+  }
+  
+  .get-result-button {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+          font-size: 1.5em;
+          text-transform: uppercase;
+          padding: 7px 20px;
+          width: 200px;
+          border-radius: 10px;
+          color: white;
+          text-shadow: -1px -1px 1px rgba(0,0,0,0.8);
+          border: 5px solid transparent;
+          border-bottom-color: rgba(0,0,0,0.35);
+          background: hsla(260, 100%, 50%, 1);
+          cursor: pointer;
+          margin: 0 auto;
+          outline: 0 !important;
+          animation: pulse 1s infinite alternate;
+          transition: background 0.4s, border 0.2s, margin 0.2s;
+      }
+      
+  .get-result-button:hover {
+          background: hsla(220, 100%, 60%, 1);
+          margin-top: -1px;
+  
+          animation: none;
+      }
+  
+  .get-result-button:active {
+          border-bottom-width: 0;
+          margin-top: 5px;
+      }
+        @keyframes pulse {
+          0% {
+              margin-top: 0px;
+          }
+          100% {
+              margin-top: 6px; 
+          } 
+      }
+  
+  /*_______________________________________*/
+  
+  .result-image{
+    text-align: center;
+  }
+  
+  .responsive {
+      max-width: 90%;
+      height: auto;
+  }
+  
+  .thumbs-down, .thumbs-up{
+    height: 2em;
+  }
+  
+  .wrong-explanation{
+    color: tomato;
+  }
+  
+  .right-explanation{
+    color: dodgerblue;
+  }
+  
+  @media only screen and (min-width: 640px) {
+    body{
+      font-size: 20px;
+    }
+  
+    .result-image img{
+      width: 420px;
+      height: 319px;
+    }
+  
+    .gotRightContainer,.gotWrongContainer,.rightExplanationContainer, .wrongExplanationContainer{
+      margin: 0 auto;
+      width: 400px;
+      white-space: normal;
+    }
+  }
+  
+  
